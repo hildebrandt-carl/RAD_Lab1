@@ -1,5 +1,3 @@
-# TeamRAD_HelloWorld
-# TeamRAD_HelloWorld
-# TeamRAD_HelloWorld
-# TeamRAD_HelloWorld
-# TeamRAD_HelloWorld
+#Team RAD
+
+We are pretty cool just saying
