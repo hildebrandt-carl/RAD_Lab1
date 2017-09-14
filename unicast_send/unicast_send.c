@@ -78,8 +78,8 @@ PROCESS_THREAD(unicast_send_process, ev, data)
     /* Delay 2-4 seconds */
     etimer_set(&et, 2*CLOCK_SECOND);
     PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&et));
-
-    unicast_send("RAD TEAM", 9, 4); //sender
+	
+    unicast_send("Carls Cool", 11, 4); //sender
     //rf1a_start_rx();   //receiver
 
     
