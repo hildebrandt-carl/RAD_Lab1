@@ -1,2 +1,4 @@
-obj/list.o: ../../core/lib/list.c ../../core/lib/list.h
-../../core/lib/list.c ../../core/lib/list.h :
+obj/list.o: ../../wizzimote-contiki/core/lib/list.c \
+ ../../wizzimote-contiki/core/lib/list.h
+../../wizzimote-contiki/core/lib/list.c :
+ ../../wizzimote-contiki/core/lib/list.h :

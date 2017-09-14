@@ -1,38 +1,94 @@
-obj/rtimer.o: ../../mcu/cc430/rtimer.c ../../core/contiki.h \
- ../../mcu/cc430/contiki-conf.h config.h ../../core/sys/process.h \
- ../../core/sys/pt.h ../../core/sys/lc.h ../../core/sys/lc-switch.h \
- ../../core/sys/cc.h ../../core/sys/autostart.h ../../core/sys/process.h \
- ../../core/sys/timer.h ../../core/sys/etimer.h ../../core/sys/timer.h \
- ../../core/sys/ctimer.h ../../core/sys/etimer.h ../../core/sys/pt.h \
- ../../core/sys/energest.h ../../core/lib/list.h ../../core/lib/memb.h \
- ../../core/lib/random.h ../../core/dev/serial-line.h \
- ../../core/lib/membx.h ../../core/lib/fifo.h ../../core/net/lwb.h \
- ../../platform/olimex-ccrf/platform.h \
- ../../mcu/cc430/rf1a-SmartRF-settings/433MHz-2FSK-250kbps.h \
- ../../mcu/cc430/adc.h ../../mcu/cc430/clock.h ../../mcu/cc430/dma.h \
- ../../mcu/cc430/flash.h ../../mcu/cc430/gpio.h ../../mcu/cc430/pmm.h \
- ../../mcu/cc430/rf1a.h ../../mcu/cc430/rf1a-core.h \
- ../../mcu/cc430/contiki-conf.h ../../mcu/rtimer.h ../../mcu/spi.h \
- ../../mcu/uart.h ../../mcu/cc430/usci.h ../../mcu/cc430/watchdog.h \
- ../../core/net/scheduler.h ../../core/net/stream.h ../../core/net/lwb.h \
- ../../core/net/glossy.h ../../core/net/nullmac.h ../../core/dev/xmem.h \
- ../../core/dev/debug-print.h ../../core/dev/fram.h
-../../mcu/cc430/rtimer.c ../../core/contiki.h :
- ../../mcu/cc430/contiki-conf.h config.h ../../core/sys/process.h :
- ../../core/sys/pt.h ../../core/sys/lc.h ../../core/sys/lc-switch.h :
- ../../core/sys/cc.h ../../core/sys/autostart.h ../../core/sys/process.h :
- ../../core/sys/timer.h ../../core/sys/etimer.h ../../core/sys/timer.h :
- ../../core/sys/ctimer.h ../../core/sys/etimer.h ../../core/sys/pt.h :
- ../../core/sys/energest.h ../../core/lib/list.h ../../core/lib/memb.h :
- ../../core/lib/random.h ../../core/dev/serial-line.h :
- ../../core/lib/membx.h ../../core/lib/fifo.h ../../core/net/lwb.h :
- ../../platform/olimex-ccrf/platform.h :
- ../../mcu/cc430/rf1a-SmartRF-settings/433MHz-2FSK-250kbps.h :
- ../../mcu/cc430/adc.h ../../mcu/cc430/clock.h ../../mcu/cc430/dma.h :
- ../../mcu/cc430/flash.h ../../mcu/cc430/gpio.h ../../mcu/cc430/pmm.h :
- ../../mcu/cc430/rf1a.h ../../mcu/cc430/rf1a-core.h :
- ../../mcu/cc430/contiki-conf.h ../../mcu/rtimer.h ../../mcu/spi.h :
- ../../mcu/uart.h ../../mcu/cc430/usci.h ../../mcu/cc430/watchdog.h :
- ../../core/net/scheduler.h ../../core/net/stream.h ../../core/net/lwb.h :
- ../../core/net/glossy.h ../../core/net/nullmac.h ../../core/dev/xmem.h :
- ../../core/dev/debug-print.h ../../core/dev/fram.h :
+obj/rtimer.o: ../../wizzimote-contiki/mcu/cc430/rtimer.c \
+ ../../wizzimote-contiki/core/contiki.h \
+ ../../wizzimote-contiki/mcu/cc430/contiki-conf.h config.h \
+ ../../wizzimote-contiki/core/sys/process.h \
+ ../../wizzimote-contiki/core/sys/pt.h \
+ ../../wizzimote-contiki/core/sys/lc.h \
+ ../../wizzimote-contiki/core/sys/lc-switch.h \
+ ../../wizzimote-contiki/core/sys/cc.h \
+ ../../wizzimote-contiki/core/sys/autostart.h \
+ ../../wizzimote-contiki/core/sys/process.h \
+ ../../wizzimote-contiki/core/sys/timer.h \
+ ../../wizzimote-contiki/core/sys/etimer.h \
+ ../../wizzimote-contiki/core/sys/timer.h \
+ ../../wizzimote-contiki/core/sys/ctimer.h \
+ ../../wizzimote-contiki/core/sys/etimer.h \
+ ../../wizzimote-contiki/core/sys/pt.h \
+ ../../wizzimote-contiki/core/sys/energest.h \
+ ../../wizzimote-contiki/core/lib/list.h \
+ ../../wizzimote-contiki/core/lib/memb.h \
+ ../../wizzimote-contiki/core/lib/random.h \
+ ../../wizzimote-contiki/core/dev/serial-line.h \
+ ../../wizzimote-contiki/core/lib/membx.h \
+ ../../wizzimote-contiki/core/lib/fifo.h \
+ ../../wizzimote-contiki/core/net/lwb.h \
+ ../../wizzimote-contiki/platform/olimex-ccrf/platform.h \
+ ../../wizzimote-contiki/mcu/cc430/rf1a-SmartRF-settings/433MHz-2FSK-250kbps.h \
+ ../../wizzimote-contiki/mcu/cc430/adc.h \
+ ../../wizzimote-contiki/mcu/cc430/clock.h \
+ ../../wizzimote-contiki/mcu/cc430/dma.h \
+ ../../wizzimote-contiki/mcu/cc430/flash.h \
+ ../../wizzimote-contiki/mcu/cc430/gpio.h \
+ ../../wizzimote-contiki/mcu/cc430/pmm.h \
+ ../../wizzimote-contiki/mcu/cc430/rf1a.h \
+ ../../wizzimote-contiki/mcu/cc430/rf1a-core.h \
+ ../../wizzimote-contiki/mcu/cc430/contiki-conf.h \
+ ../../wizzimote-contiki/mcu/rtimer.h ../../wizzimote-contiki/mcu/spi.h \
+ ../../wizzimote-contiki/mcu/uart.h \
+ ../../wizzimote-contiki/mcu/cc430/usci.h \
+ ../../wizzimote-contiki/mcu/cc430/watchdog.h \
+ ../../wizzimote-contiki/core/net/scheduler.h \
+ ../../wizzimote-contiki/core/net/stream.h \
+ ../../wizzimote-contiki/core/net/lwb.h \
+ ../../wizzimote-contiki/core/net/glossy.h \
+ ../../wizzimote-contiki/core/net/nullmac.h \
+ ../../wizzimote-contiki/core/dev/xmem.h \
+ ../../wizzimote-contiki/core/dev/debug-print.h \
+ ../../wizzimote-contiki/core/dev/fram.h
+../../wizzimote-contiki/mcu/cc430/rtimer.c :
+ ../../wizzimote-contiki/core/contiki.h :
+ ../../wizzimote-contiki/mcu/cc430/contiki-conf.h config.h :
+ ../../wizzimote-contiki/core/sys/process.h :
+ ../../wizzimote-contiki/core/sys/pt.h :
+ ../../wizzimote-contiki/core/sys/lc.h :
+ ../../wizzimote-contiki/core/sys/lc-switch.h :
+ ../../wizzimote-contiki/core/sys/cc.h :
+ ../../wizzimote-contiki/core/sys/autostart.h :
+ ../../wizzimote-contiki/core/sys/process.h :
+ ../../wizzimote-contiki/core/sys/timer.h :
+ ../../wizzimote-contiki/core/sys/etimer.h :
+ ../../wizzimote-contiki/core/sys/timer.h :
+ ../../wizzimote-contiki/core/sys/ctimer.h :
+ ../../wizzimote-contiki/core/sys/etimer.h :
+ ../../wizzimote-contiki/core/sys/pt.h :
+ ../../wizzimote-contiki/core/sys/energest.h :
+ ../../wizzimote-contiki/core/lib/list.h :
+ ../../wizzimote-contiki/core/lib/memb.h :
+ ../../wizzimote-contiki/core/lib/random.h :
+ ../../wizzimote-contiki/core/dev/serial-line.h :
+ ../../wizzimote-contiki/core/lib/membx.h :
+ ../../wizzimote-contiki/core/lib/fifo.h :
+ ../../wizzimote-contiki/core/net/lwb.h :
+ ../../wizzimote-contiki/platform/olimex-ccrf/platform.h :
+ ../../wizzimote-contiki/mcu/cc430/rf1a-SmartRF-settings/433MHz-2FSK-250kbps.h :
+ ../../wizzimote-contiki/mcu/cc430/adc.h :
+ ../../wizzimote-contiki/mcu/cc430/clock.h :
+ ../../wizzimote-contiki/mcu/cc430/dma.h :
+ ../../wizzimote-contiki/mcu/cc430/flash.h :
+ ../../wizzimote-contiki/mcu/cc430/gpio.h :
+ ../../wizzimote-contiki/mcu/cc430/pmm.h :
+ ../../wizzimote-contiki/mcu/cc430/rf1a.h :
+ ../../wizzimote-contiki/mcu/cc430/rf1a-core.h :
+ ../../wizzimote-contiki/mcu/cc430/contiki-conf.h :
+ ../../wizzimote-contiki/mcu/rtimer.h ../../wizzimote-contiki/mcu/spi.h :
+ ../../wizzimote-contiki/mcu/uart.h :
+ ../../wizzimote-contiki/mcu/cc430/usci.h :
+ ../../wizzimote-contiki/mcu/cc430/watchdog.h :
+ ../../wizzimote-contiki/core/net/scheduler.h :
+ ../../wizzimote-contiki/core/net/stream.h :
+ ../../wizzimote-contiki/core/net/lwb.h :
+ ../../wizzimote-contiki/core/net/glossy.h :
+ ../../wizzimote-contiki/core/net/nullmac.h :
+ ../../wizzimote-contiki/core/dev/xmem.h :
+ ../../wizzimote-contiki/core/dev/debug-print.h :
+ ../../wizzimote-contiki/core/dev/fram.h :

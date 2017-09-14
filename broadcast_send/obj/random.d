@@ -1,2 +1,4 @@
-obj/random.o: ../../core/lib/random.c ../../core/lib/random.h
-../../core/lib/random.c ../../core/lib/random.h :
+obj/random.o: ../../wizzimote-contiki/core/lib/random.c \
+ ../../wizzimote-contiki/core/lib/random.h
+../../wizzimote-contiki/core/lib/random.c :
+ ../../wizzimote-contiki/core/lib/random.h :

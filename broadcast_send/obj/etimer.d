@@ -1,8 +1,18 @@
-obj/etimer.o: ../../core/sys/etimer.c ../../mcu/cc430/contiki-conf.h \
- config.h ../../core/sys/etimer.h ../../core/sys/timer.h \
- ../../core/sys/process.h ../../core/sys/pt.h ../../core/sys/lc.h \
- ../../core/sys/lc-switch.h ../../core/sys/cc.h
-../../core/sys/etimer.c ../../mcu/cc430/contiki-conf.h :
- config.h ../../core/sys/etimer.h ../../core/sys/timer.h :
- ../../core/sys/process.h ../../core/sys/pt.h ../../core/sys/lc.h :
- ../../core/sys/lc-switch.h ../../core/sys/cc.h :
+obj/etimer.o: ../../wizzimote-contiki/core/sys/etimer.c \
+ ../../wizzimote-contiki/mcu/cc430/contiki-conf.h config.h \
+ ../../wizzimote-contiki/core/sys/etimer.h \
+ ../../wizzimote-contiki/core/sys/timer.h \
+ ../../wizzimote-contiki/core/sys/process.h \
+ ../../wizzimote-contiki/core/sys/pt.h \
+ ../../wizzimote-contiki/core/sys/lc.h \
+ ../../wizzimote-contiki/core/sys/lc-switch.h \
+ ../../wizzimote-contiki/core/sys/cc.h
+../../wizzimote-contiki/core/sys/etimer.c :
+ ../../wizzimote-contiki/mcu/cc430/contiki-conf.h config.h :
+ ../../wizzimote-contiki/core/sys/etimer.h :
+ ../../wizzimote-contiki/core/sys/timer.h :
+ ../../wizzimote-contiki/core/sys/process.h :
+ ../../wizzimote-contiki/core/sys/pt.h :
+ ../../wizzimote-contiki/core/sys/lc.h :
+ ../../wizzimote-contiki/core/sys/lc-switch.h :
+ ../../wizzimote-contiki/core/sys/cc.h :
