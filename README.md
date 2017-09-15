@@ -1,11 +1,6 @@
-#Team RAD
+# Team RAD - Lab 1
 
-We are pretty cool just saying
-
-
-# Project Title
-
-Advanced Embedded Systems - Lab 1
+Advanced Embedded Systems Course
 
 ## About
 
