@@ -1,8 +1,3 @@
-# ignore a single file
-
-# ignore an entire directory
-/*/obj
-
 # ignore a file type
 *.o
 *.d
