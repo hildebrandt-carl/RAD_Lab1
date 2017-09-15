@@ -15,7 +15,9 @@ This lab was setting up two wizzimote to send and recieve strings. Wizzimotes pr
 
 You will need to install wizzimote-contiki:
 
+```
 git clone https://suman2135@bitbucket.org/suman2135/wizzimote-contiki.git
+```
 
 Move the libmsp430.so into /usr/lib
 
@@ -27,13 +29,8 @@ sudo apt-get install build-essential binutils-msp430 gcc-msp430 msp430-libc msp4
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* **Carl Hildebrandt** - *Initial work* - [hildebrandt-carl](https://github.com/hildebrandt-carl)
+* **Member1** - *Initial work* - [rhorzewski](https://github.com/rhorzewski)
+* **Mebere2** - *Initial work* - [SilverShadowx](https://github.com/SilverShadowx)
 
 
