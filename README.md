@@ -25,7 +25,7 @@ sudo apt-get install build-essential binutils-msp430 gcc-msp430 msp430-libc msp4
 ## Authors
 
 * **Carl Hildebrandt** - *Initial work* - [hildebrandt-carl](https://github.com/hildebrandt-carl)
-* **Member1** - *Initial work* - [rhorzewski](https://github.com/rhorzewski)
-* **Mebere2** - *Initial work* - [SilverShadowx](https://github.com/SilverShadowx)
+* **Rebecca Horzewski** - *Initial work* - [rhorzewski](https://github.com/rhorzewski)
+* **Eric Tran** - *Initial work* - [SilverShadowx](https://github.com/SilverShadowx)
 
 
