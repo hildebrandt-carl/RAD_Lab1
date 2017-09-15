@@ -1,5 +1,15 @@
+# ignore a single file
+
+# ignore an entire directory
+/*/obj
+
+# ignore a file type
 *.o
-*.hex
-*.dis
-*.exe
 *.d
+*.dis
+*.hex
+*.exe
+*.b64
+
+# add an exception (using !) to the preceding rule to track a specific file
+#!package.json
